@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    gap: 480px;
+    padding: 20px;
+    margin-left: 10px;
+    /* margin-right: 20px; */
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: white; */
+}
+
+.nav-1 span{
+    color: rgb(5, 238, 5);
+}
+
+.nav-2{
+    display: flex;
+    gap: 40px;
+    justify-items: end;
+}
+
+
+
+.img-containt img{
+    margin-left: 25px;
+    /* margin-right: 30px; */
+    width: 95%;
+    height: 500px;
+    border-radius: 20px;
+    position:relative;
+}
+
+.img-containt .text{
+    position: absolute;
+    top: 200px;
+    color: white;
+    left: 120px;
+    font-size: 50px;
+}
+
+.img-containt .text .blk{
+    color: orange;
+    font-size: 20px;
+}
+
+.img-containt .text .unq{
+    font-size: 20px;
+}
+
+.nav-2 span{
+    color: rgb(5, 238, 5);
+}
+
+.nav-2 li a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+.logo img{
+    width: 50px;
+    border-radius: 60px;
+}
+
+.search{
+    top:93%;
+    position: absolute;
+    margin-left:25px;
+    column-gap: 200px;
+}
+
+.search .search-item input{
+    width: 950%;
+    padding: 6px;
+    border: none;
+    position:absolute;
+    top: 35px;
+    border-radius: 3px;
+    background-color: rgb(219, 213, 213);
+}
+
+.search-item{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+
+.search .search-item img{
+    position: relative;
+    left: 1vh;
+    top: 3vh;
+    width: 20px;
+    color: green;
+}
+
+.search-item #sgreen{
+    position: relative;
+    left: 188vh;
+    color: green;
+    background-color: green;
+}
+
+.buttons{
+    position: relative;
+    top: 18vh;
+    margin-left: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.buttons button{
+    padding: 15px;
+    margin: 5px;
+}
+
+.buttons .btn{
+    display: flex;
+    gap: 5px;
+}
+
+.buttons .btn1{
+    background-color: orange;
+}
+
+.buttons .btn2{
+    background-color: green;
+}
+
+.buttons .btn3{
+    background-color: red;
+}
+
+
+.btn img{
+    width: 25px;
+    height: 60px;
+}
+
+.filter{
+    position: relative;
+    top: 180px;
+    left: 25px;
+}
+
+.containt {
+    display: grid;
+    grid-template-columns: repeat(3,20%);
+    column-gap: 90px;
+    row-gap: 40px;
+}
+
+.containt img{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 200px;    
+}
+
+.footer{
+    display:flex;
+    position: relative;
+    top: 150px;
+    left: 25px;
+    gap: 120px;    
+}
